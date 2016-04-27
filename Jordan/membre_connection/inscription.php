@@ -10,7 +10,7 @@
 	$_SESSION['insc'] = 0;
 }
 ?>
-<form method="get" action="fonc_insc.php">
+<form method="get" action="membre_connection/fonc_insc.php">
 	<input type="text" name="pseudo" value="pseudo"/><br/><br/>
 	<input type="password" name="pass" value="pass"/><br/><br/>
 	<input type="submit"/>

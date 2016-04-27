@@ -15,7 +15,9 @@
 			<?php include('head.php'); ?>
 
 		</div>
-		<div id="sujet">SUJET DU JOUR</div>
+		<div id="sujet">SUJET DU JOUR
+				<?php include('sujet_recent/sujet_recent.php'); ?>
+		</div>
 		<div id="co">
 			<div id="connection">
 				<?php include('membre_connection/connection.php');?>
@@ -23,6 +25,8 @@
 		</div>
 		<div id="corps">
 			<?php include('corps/corps.php');
+			     //include('corps/aff_comm.php');
+			     //include('corps/com.php');
 
  ?>
 		</div>

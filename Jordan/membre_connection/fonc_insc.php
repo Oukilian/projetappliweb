@@ -4,7 +4,7 @@
 	$req = $bdd->prepare("INSERT INTO utilisateur(pseudo, password) VALUES(?, ?)");
 	$name=$_GET['pseudo'];
         $password=$_GET['pass'];
-	$ver = $bdd->query("SELECT * FROM utilisateur");
+	$ver = $bdd->query('SELECT * FROM utilisateur');
 	while($donnee = $ver->fetch()){
 		$name2 = $donnee['pseudo'];
 		echo($name);
